@@ -19,10 +19,11 @@ body {
 =========================================================================================
 */
 header {
-    background-image: url("../images/banner/banner1.png");
+    background-image: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
-    background-position: 25% 0;
+    background-position: 60% 0;
     background-size: cover;
+    color: #FFF;
 }
 
 #header_top {
@@ -33,7 +34,6 @@ header {
 }
 
 #header_top h1 {
-    color: #151414;
     font-size: 65px;
     font-weight: 700;
     width: 525px;
@@ -42,7 +42,6 @@ header {
 #header_top p {
     margin: 25px 0 30px;
     width: 495px;
-    color: #444343;
     font-size: 16px;
     font-weight: 400;
     text-align: right;
@@ -52,9 +51,9 @@ header {
 #header_top button {
     border: none;
     border-radius: 5px;
-    background: #F15B22;
+    background: #FFF;
     padding: 20px 25px;
-    color: #FFF;
+    color: #005FAC;
     font-size: 20px;
     font-weight: 600;
 }
@@ -165,7 +164,7 @@ main {
 */
 .positive_mind_text {
     margin: 135px 0 130px;
-    background-image: url("../images/gradient2.png"), url("../images/watch.png");
+    background-image: url("../images/gradient1.png"), url("../images/watch.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center, center;
@@ -264,12 +263,12 @@ footer {
 }
 
 .footer_right button {
-    color: #F15B22;
+    color: #fff;
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
     padding: 20px 35px;
     border-radius: 8px;
-    background: #FFF;
+    background: #005FAC;
     border: none;
 }
